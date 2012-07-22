@@ -118,4 +118,7 @@ rm -rf %{buildroot}
 
 %changelog
 * Sun Jul 22 2012 Izhar Firdaus <izhar@inigo-tech.com> 4.2-1
+- first build using tito
+
+* Sun Jul 22 2012 Izhar Firdaus <izhar@inigo-tech.com> 4.2-1
 - new package built with tito
