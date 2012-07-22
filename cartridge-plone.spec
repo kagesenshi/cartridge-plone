@@ -117,6 +117,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Jul 22 2012 Izhar Firdaus <izhar@inigo-tech.com> 4.2-2
+- preparing for 4.2-1 release (izhar@inigo-tech.com)
+- fix installation guide (izhar@inigo-tech.com)
+- added README.rst (izhar@inigo-tech.com)
+- only share download-cache, but not extends-cache (izhar@inigo-tech.com)
+
 * Sun Jul 22 2012 Izhar Firdaus <izhar@inigo-tech.com> 4.2-1
 - first build using tito
 
