@@ -1,0 +1,28 @@
+Name: plone-4.2
+Display-Name: Plone 4.2 
+Description: Cartridge for Plone 4.2
+Version: 1.0.0
+License: ASL 2.0
+Vendor:
+Provides:
+  - "plone-4.2"
+Requires:
+Conflicts:
+Native-Requires:
+Architecture: noarch
+Publishes:
+  get-doc-root:
+    Type: "FILESYSTEM:doc-root"
+  publish-http-url:
+    Type: "NET_TCP:httpd-proxy-info"
+  publish-gear-endpoint:
+    Type: "NET_TCP:gear-endpoint-info"
+Subscribes:
+  set-db-connection-info:
+    Type: "NET_TCP:db:connection-info"
+    Required: false
+Reservations:
+  - MEM >= 512MB
+Scaling:
+  Min: 1
+  Max: -1
