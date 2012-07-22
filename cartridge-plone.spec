@@ -7,7 +7,7 @@ Release:   1%{?dist}
 Group:     Development/Languages
 License:   ASL 2.0
 URL:       http://openshift.redhat.com
-Source0: %{name}-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.gz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
@@ -34,7 +34,7 @@ Provides Plone %{version} support to OpenShift
 
 
 %prep
-%setup -q -n %{name}
+%setup -q 
 
 
 %build
