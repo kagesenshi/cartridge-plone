@@ -3,7 +3,7 @@
 Summary:   Provides Plone 
 Name:      cartridge-plone
 Version:   4.2
-Release:   1%{?dist}
+Release:   2%{?dist}
 Group:     Development/Languages
 License:   ASL 2.0
 URL:       http://openshift.redhat.com
