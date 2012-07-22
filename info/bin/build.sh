@@ -40,7 +40,7 @@ then
 extends = buildout.cfg
 eggs-directory = ${BUILDOUT_CACHE_DIR}/eggs/
 download-cache = /var/cache/plone-4.2/
-extends-cache = /var/cache/plone-4.2/
+extends-cache = ${BUILDOUT_CACHE_DIR}
 effective-user = ${OPENSHIFT_APP_UUID}
 log-directory = ${OPENSHIFT_LOG_DIR}
 data-directory = ${OPENSHIFT_DATA_DIR}
