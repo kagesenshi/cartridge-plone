@@ -6,11 +6,11 @@ This package provides a Plone 4.2 cartridge for OpenShift.
 
 Features:
 
- * Single instance zope server
- * Includes Plone 4.2 with plone.app.dexterity by default
- * Shared download-cache directory in /var/cache/plone-4.2/
- * stores data in OPENSHIFT_DATA_DIR
- * stores log in OPENSHIFT_LOG_DIR
+* Single instance zope server
+* Includes Plone 4.2 with plone.app.dexterity by default
+* Shared download-cache directory in /var/cache/plone-4.2/
+* stores data in OPENSHIFT_DATA_DIR
+* stores log in OPENSHIFT_LOG_DIR
 
 Installation
 =============
@@ -32,7 +32,7 @@ Checkout and build::
 Copy the generated RPM to your OpenShift server and install it
 
 Edit 
-/usr/lib/ruby/gems/1.8/gems/stickshift-controller-0.10.2/lib/stickshift-controller/app/models/cartridge_cache.rb and add 'cartridge-plone' in FRAMEWORK_CART_NAMES
+/usr/lib/ruby/gems/1.8/gems/stickshift-controller-0.10.2/lib/stickshift-controller/app/models/cartridge_cache.rb and add 'plone-4.2' in FRAMEWORK_CART_NAMES
 
 Clear the broker cache::
   
